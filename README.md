@@ -37,24 +37,24 @@ git clone https://github.com/yourusername/git-practice.git
 ### 2. 新しいブランチを作成する
 
 ```bash
-git checkout -b feature/your-feature-name
+git checkout -b feature/your-github-name
 ```
 
 ### 3. 変更を加えコミットする
 
 - `src/index.html`に新しい行を追加します。
-- ul タグ内の li タグ最終行に`<li>your name</li>`を追加します。
+- ul タグ内の li タグ最終行に`<li>your github-name</li>`を追加します。
 - 変更をステージングし、コミットします。
 
 ```bash
 git add .
-git commit -m "add your sname"
+git commit -m "add your github-name"
 ```
 
 ### 4. 変更をプッシュする
 
 ```bash
-git push origin feature/your-feature-name
+git push origin feature/your-github-name
 ```
 
 ### 5. プルリクエストを作成する
