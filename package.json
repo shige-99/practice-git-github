@@ -1,0 +1,19 @@
+{
+  "name": "practice-git-github",
+  "version": "1.0.0",
+  "description": "このリポジトリは、Git および GitHub の操作を練習するために設計されています。基本的な Git コマンド、ブランチ管理、コンフリクト解消、コラボレーションワークフローに慣れることを目的としています。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "TAILWIND_MODE=watch postcss src/styles/style.css -o src/styles/dist.css -w",
+    "build": "NODE_ENV=production postcss src/styles/style.css -o src/styles/dist.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.5",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.10"
+  }
+}
